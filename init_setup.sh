@@ -7,11 +7,8 @@ source activate ./env
 echo [$(date)]: "install requirements"
 pip install -r requirements.txt
 echo [$(date)]: "create an src directory"
-mkdir src && touch src/__init__.py src/main.py
-echo [$(date)]: "Curl .gitignore for python"
-curl https://raw.githubusercontent.com/c17hawke/Pytorch-basics/main/.gitignore > .gitignore
-# echo [$(date)]: "add env to gitignore"
-# echo "env/" >> .gitignore
+touch src/__init__.py src/main.py
+echo [$(date)]: "END"
 
 # to remove everything -
 # rm -rf env/ .gitignore conda.yaml README.md .git/
