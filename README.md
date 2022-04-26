@@ -1,2 +1,3 @@
-# general_template for generic projects
-general template for any project
+# TLT experiment
+
+[reference](https://developer.nvidia.com/blog/training-custom-pretrained-models-using-tlt/)
